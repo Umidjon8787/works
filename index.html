@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/all.css">
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/flag-icons.min.css">
+    <title>Shopping cart</title>
+</head>
+<body>
+
+    <!--=====UP-line start=====--->
+    <div class="row">
+        <div class="col-lg-12" style="margin-top: 15px; background-color: #F7F7F7 ;">
+            <div class="container" style="padding-top: 5px;">
+                <div class="row">
+                    <div class="col-2">
+                      <i class="fa-solid fa-bullhorn b" style="font-size: 16pt; color: #93929E;"> </i> 
+                      <span class="sms">SMS Defoult welcome !</span> 
+                    </div>
+
+                    <div class="col-4" style="position: relative;">
+                      <span class="slesh">|</span>
+                      <!-- <div class="ring">
+                          0
+                      </div> -->
+                      <i class="fa-solid fa-gift"  style="font-size: 16pt; color: #93929E;"></i>
+                      <span class="sms">Gift Vouchers</span>
+                    </div>
+
+                    <div class="col-2">
+                        <div class="dropdown">
+                            <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" style="color: #93929E; outline: none;">
+                              <i class="fa-solid fa-language"></i> Language:
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                              <li><a class="dropdown-item" href="#"> <img src="./IMG/free-icon-uzbekistan-330495.png" alt=""></a>UZB</li>
+                              <li><a class="dropdown-item" href="#"><img src="./IMG/free-icon-united-states-206626.png" alt=""> USA</a></li>
+                              <li><a class="dropdown-item" href="#"><img src="./IMG/free-icon-russia-555451.png" alt=""> RU</a></li>
+                              <li><a class="dropdown-item" href="#"></a><img src="./IMG/free-icon-kazakhstan-206778.png" alt=""> KZ</li>
+                            </ul> <span class="ss">|</span>
+                        </div> 
+                        
+
+                    </div>
+
+                   <div class="col-2">
+                     
+                    <div class="dropdown">
+                        <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false" style="color: #93929E; outline: none;">
+                            <i class="fa-solid fa-money-bill-1"></i>
+                          Currency:
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <li><a class="dropdown-item" href="#"> <img src="./IMG/free-icon-uzbekistan-330495.png" alt=""></a>UZB</li>
+                          <li><a class="dropdown-item" href="#"><img src="./IMG/free-icon-united-states-206626.png" alt=""> USA</a></li>
+                          <li><a class="dropdown-item" href="#"><img src="./IMG/free-icon-russia-555451.png" alt=""> RU</a></li>
+                          <li><a class="dropdown-item" href="#"></a><img src="./IMG/free-icon-kazakhstan-206778.png" alt=""> KZ</li>
+                        </ul><span class="ss">|</span>
+                    </div>
+                    
+                   </div>
+                   <div class="col-2">
+                        <a href="#" class="register">Sing In/ Register</a>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--=====UP-line end=====--->
+
+    <!---====Logo line start=====-->
+    <div class="row">
+        
+        <div class="col-lg-12">
+            <div class="container">
+                <ul class="logo" style="padding-left: 0;">
+                    <li class="logo-item"><a class="navbar-brand" href="#" style="color: #a8f1eb; font-size: 45px; font-family: 'Montserrat Alternates', sans-serif;">Miukid</a></li>
+                    <li class="logo-item" style="padding: 15px; border-right: 2px solid #c4c2d4; "> 
+                        <div class="raund"> <i class="fa-solid fa-calendar-days" style="font-size: 16pt; color: #878596;"></i></div>
+                        <span style="color: #93929E;">Mon-Sat 8:00-18:00</span>
+                        <span style="color: #cac0c0;">Sunday</span> 
+                        <span style="color: #ecb0b0;">CLOSED</span>
+                    </li>
+                    <li class="logo-item" style="padding: 15px; border-right: 1px solid #93929E;">
+                        <div class="raund"> <i class="fa-solid fa-bookmark" style="font-size: 16pt; color: #878596;"></i></div>
+                        <span style="color: #93929E;">Every Week Sales!</span>
+                        <span style="color: #cac0c0;">Discount</span> 
+                        <span style="color: #ecb0b0;">up to 50% off </span>
+                    </li>
+                    <li class="logo-item" style="padding: 15px;">
+                        <div class="raund"> <i class="fa-solid fa-phone" style="font-size: 16pt; color: #878596;"></i></div>
+                        <span style="color: #93929E;">Have Are Questions?</span>
+                        <span style="color: #cac0c0;">Call:</span> 
+                        <span style="color: #a8f1eb;">1900-819898</span>
+                    </li>
+                </ul>
+            </div>        
+        </div>
+        
+    </div>
+    <!---====Logo line end=====-->
+
+    <!--=====navbar start=====-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+           <a class="navbar-brand" href="#"></a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+           </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-3 me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown ms-4">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Product
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown ms-4">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sale
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <a class="nav-link" aria-current="page" href="#">Blogs</a>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <a class="nav-link" aria-current="page" href="#">About Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+
+                <li class="logo-item" style="padding: 15px;">
+                    <div class="raund" style="background-color: #FDCC2C;"> <i class="fa-solid fa-bag-shopping" style="font-size: 16pt; color: #fff;"></i></div>
+                    <span>My cart</span>
+                    <span >01/</span> 
+                    <span style="color: #93929E;">$ 150.00</span>
+                </li>
+            </div>
+        </div>
+      </nav>
+    <!--=====navbar end=======-->
+
+    <!---=====body page start======--->
+    <div class="row" style="margin-top: 40px;">
+        <div class="col-lg-9 col-md-12 col-sm-12">
+            
+            <!---carusel start-->
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="container">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                           <div class="container" style="padding-left: 100px;">
+                                 <img src="./IMG/slid1.png" class="d-block w-100" style="height: 500px;" alt="...">
+                           </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                          <div class="container" style="padding-left: 100px;">
+                            <img src="./IMG/slide2.png" class="d-block w-100" style="height: 500px;" alt="...">
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container" style="padding-left: 100px;">
+                                <img src="./IMG/slide3.png" class="d-block w-100" style="height: 500px;" alt="...">
+                            </div>
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" style="color: black;" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                </div>
+                
+            </div>    
+            <!--carusel end--->
+            
+        </div>
+        <div class="col-lg-3 col-md-12 col-sm-12">
+            <div class="card" style="width: 18rem; margin-bottom: 20px;" >
+                <img src="./IMG/sale1.jpg" class="card-img-top" alt="...">
+                <!-- <div class="card-body">
+                  
+                </div> -->
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="./IMG/sale.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the Some quick fashion sale example</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---=====body page end========--->
+
+    <!--featured start-->
+    <div class="row" style="margin-top: 40px;">
+        <div class="col-lg-12" >
+            <div class="container" style="border-bottom: 2px solid #93929E;">
+                <a class="navbar-brand" href="#" style="color: #4B5567; font-size: 45px; font-family: 'Montserrat Alternates', sans-serif;">Featured</a>
+            </div>
+        </div>
+    </div>
+    <!--featured end---->
+
+    <!---==basic page start===-->
+    <div class="row" style="margin-top: 30px;">
+        <div class="col-lg-12">
+            <div class="container">
+                <div class="card" style="width: 15rem; display: inline-block; margin-right: 8px;">
+                    <img src="./IMG/kurtka.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <span class="card-text" style="color: #8A8893;">Animal Print Sweatshirt</span> <br/>
+                        <span class="star">
+                          <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                          <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                          <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                          <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                          <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                        </span>
+                        <span style="color: #8A8893;"><i>6 Review(s)</i> </span> <br/>
+                        <span style="color: #595768; font-size: 18px; font-weight: 700;">$ 36.00</span>
+                        <span style="color: #595768; font-size: 14px; font-weight: 700; text-decoration: line-through;">$ 48.00</span> 
+                        <div class="cart" style="display: inline-block; padding: 30px; position: relative; width: 80px;">
+                           <i class="fa-solid fa-cart-shopping"></i>
+                            <div id="buy" class="ring" style="display: inline-block; position: absolute; "> <span style="color: white;  display: inline-block; margin-top: -20px;">0</span></div>
+                            
+                        </div> <br/>
+                        <button  onclick="qushish()" id="buy" style="width: 100px; height: 25px; border: none; color: blue;"><i class="fa-solid fa-arrow-up"> </i>Purchase</button>
+                        <button  onclick="ayirish()"id="buy" style="width: 100px; height: 25px; border: none; color: red;"><i class="fa-solid fa-arrow-down"></i></i> Return</button>
+                    </div>
+                </div> 
+
+                <div class="card" style="width: 15rem; display: inline-block; margin-right: 8px;">
+                    <img src="./IMG/ko'ylak.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <span class="card-text" style="color: #8A8893;">Animal Print Sweatshirt</span> <br/>
+                        <span class="star">
+                          <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                          <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                          <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                          <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                          <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                        </span>
+                        <span style="color: #8A8893;"><i>6 Review(s)</i> </span> <br/>
+                        <span style="color: #595768; font-size: 18px; font-weight: 700;">$ 16.00</span>
+                        <span style="color: #595768; font-size: 14px; font-weight: 700; text-decoration: line-through;">$ 25.00</span>
+                        <div class="cart" style="display: inline-block; padding: 30px; position: relative; width: 80px;">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <div id="dress" class="ring" style="display: inline-block; position: absolute; "> <span style="color: white;  display: inline-block; margin-top: -20px;">0</span></div>
+                            
+                        </div> <br/>
+                        <button  onclick="qush()" id="dress" style="width: 100px; height: 25px; border: none; color: blue;"><i class="fa-solid fa-arrow-up"></i>Purchase</button>
+                        <button  onclick="ayir()"id="dress" style="width: 100px; height: 25px; border: none; color: red;"><i class="fa-solid fa-arrow-down"></i></i> Return</button>
+                    </div>
+                </div> 
+
+                <div class="card" style="width: 15rem; display: inline-block; margin-right: 8px;">
+                    <img src="./IMG/komplekt.jpg" class="card-img-top" alt="..."> 
+                    <div class="card-body">
+                      <span class="card-text" style="color: #8A8893;">Animal Print Sweatshirt</span> <br/>
+                        <span class="star">
+                          <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                          <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                          <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                          <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                          <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                        </span>
+                        <span style="color: #8A8893;"><i>6 Review(s)</i> </span> <br/>
+                        <span style="color: #595768; font-size: 18px; font-weight: 700;">$ 21.00</span>
+                        <span style="color: #595768; font-size: 14px; font-weight: 700; text-decoration: line-through;">$ 35.00</span> 
+                        <div class="cart" style="display: inline-block; padding: 30px; position: relative; width: 80px;">
+                           <i class="fa-solid fa-cart-shopping"></i>
+                            <div id="komplekt" class="ring" style="display: inline-block; position: absolute; "> <span style="color: white;  display: inline-block; margin-top: -20px;">0</span></div>
+                            
+                        </div> <br/>
+                        <button  onclick=" plusp()" id="komplekt" style="width: 100px; height: 25px; border: none; color: blue;"><i class="fa-solid fa-arrow-up"></i> Purchase</button>
+                        <button  onclick="minusp()"id="komplekt" style="width: 100px; height: 25px; border: none; color: red;"><i class="fa-solid fa-arrow-down"></i></i> Return</button>
+                        
+                    </div>
+                </div> 
+
+                <div class="card" style="width: 15rem; display: inline-block; margin-right: 8px;">
+                    <img src="./IMG/bear dress.jpeg" class="card-img-top" alt="..."> 
+                    <div class="card-body">
+                      <span class="card-text" style="color: #8A8893;">Animal Print Sweatshirt</span> <br/>
+                        <span class="star">
+                          <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                          <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                          <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                          <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                          <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                        </span>
+                        <span style="color: #8A8893;"><i>6 Review(s)</i> </span> <br/>
+                        <span style="color: #595768; font-size: 18px; font-weight: 700;">$ 21.00</span>
+                        <span style="color: #595768; font-size: 14px; font-weight: 700; text-decoration: line-through;">$ 35.00</span> 
+                        <div class="cart" style="display: inline-block; padding: 30px; position: relative; width: 80px;">
+                           <i class="fa-solid fa-cart-shopping"></i>
+                            <div id="bear" class="ring" style="display: inline-block; position: absolute; "> <span style="color: white;  display: inline-block; margin-top: -20px;">0</span></div>
+                            
+                        </div> <br/>
+                        <button  onclick=" plus()" id="bear" style="width: 100px; height: 25px; border: none; color: blue;"><i class="fa-solid fa-arrow-up"></i> Purchase</button>
+                        <button  onclick="minus()"id="bear" style="width: 100px; height: 25px; border: none; color: red;"><i class="fa-solid fa-arrow-down"></i></i> Return</button>
+                        
+                    </div>
+                </div> 
+
+                <div class="card" style="width: 15rem; display: inline-block;">
+                    <img src="./IMG/fudbolka.jpg" class="card-img-top" alt="..."> 
+                    <div class="card-body">
+                      <span class="card-text" style="color: #8A8893;">Animal Print Sweatshirt</span> <br/>
+                        <span class="star">
+                          <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                          <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                          <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                          <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                          <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                        </span>
+                        <span style="color: #8A8893;"><i>6 Review(s)</i> </span> <br/>
+                        <span style="color: #595768; font-size: 18px; font-weight: 700;">$ 21.00</span>
+                        <span style="color: #595768; font-size: 14px; font-weight: 700; text-decoration: line-through;">$ 35.00</span> 
+                        <div class="cart" style="display: inline-block; padding: 30px; position: relative; width: 80px;">
+                           <i class="fa-solid fa-cart-shopping"></i>
+                            <div id="fudbolka" class="ring" style="display: inline-block; position: absolute; "> <span style="color: white;  display: inline-block; margin-top: -20px;">0</span></div>
+                            
+                        </div> <br/>
+                        <button  onclick=" pluss()" id="fudbolka" style="width: 100px; height: 25px; border: none; color: blue;"><i class="fa-solid fa-arrow-up"></i> Purchase</button>
+                        <button  onclick="minuss()"id="fudbolka" style="width: 100px; height: 25px; border: none; color: red;"><i class="fa-solid fa-arrow-down"></i></i> Return</button>
+                        
+                    </div>
+                </div> 
+                  
+                
+            </div>
+        </div>
+    </div>
+    <!---==basic page end=====-->
+
+    <!---foot page start--->
+    <div class="row" style="margin-top: 30px">
+        <div class="col-lg-12">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9 col-md-12">
+                        <img src="./IMG/kids.jpg" style="width: 100%; height: 200px;" alt="">
+                    </div>
+
+                    <div class="col-lg-3 col-md-12">
+                        <img src="./IMG/imguz.jpg" style="width: 100%; height: 200px;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---foot page end----->
+
+    <!---===foot up pege start===--->
+    <div class="container">
+        <div class="row" style="margin-top: 40px;">
+            <div class="col-lg-12" >
+                <div class="row">
+                    <div class="col-lg-9">
+                        <div class="container" style="border-bottom: 2px solid #93929E;">
+                            <a class="navbar-brand" href="#" style="color: #4B5567; font-size: 45px; font-family: 'Montserrat Alternates', sans-serif;">Bestseller</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="container" style="border-bottom: 2px solid #93929E;">
+                            <a class="navbar-brand" href="#" style="color: #4B5567; font-size: 45px; font-family: 'Montserrat Alternates', sans-serif;">Testimonial</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row" style="margin-top: 40px;">
+            <div class="col-lg-12" >
+                <div class="row">
+                    <div class="col-lg-9">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="card mb-3" style="max-width: 540px;">
+                                    <div class="row g-0">
+                                      <div class="col-md-4">
+                                        <img src="./IMG/nike.jpg" class="img-fluid rounded-start" alt="...">
+                                      </div>
+                                      <div class="col-md-8">
+                                        <div class="card-body">
+                                            <span class="card-text" style="color: #8A8893;">Animal Print Sweatshirt</span> <br/>
+                                              <span class="star">
+                                                <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                                                <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                                                <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                                                <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                                                <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                                              </span>
+                                              <span style="color: #8A8893;"><i>6 Review(s)</i> </span> <br/>
+                                              <span style="color: #595768; font-size: 18px; font-weight: 700;">$ 12.00</span>
+                                              <span style="color: #595768; font-size: 14px; font-weight: 700; text-decoration: line-through;">$ 19.00</span> 
+                                              <div class="cart" style="display: inline-block; padding: 30px; position: relative; width: 80px;">
+                                                 <i class="fa-solid fa-cart-shopping"></i>
+                                                  <div id="nike" class="ring" style="display: inline-block; position: absolute; "> <span style="color: white;  display: inline-block; margin-top: -20px;">0</span></div>
+                                                  
+                                              </div> <br/>
+                                              <button  onclick=" plussa()" id="nike" style="width: 100px; height: 25px; border: none; color: blue;"><i class="fa-solid fa-arrow-up"></i> Purchase</button>
+                                              <button  onclick="minussa()"id="nike" style="width: 100px; height: 25px; border: none; color: red;"><i class="fa-solid fa-arrow-down"></i></i> Return</button>
+                                              
+                                          </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="card mb-3" style="max-width: 540px;">
+                                    <div class="row g-0">
+                                      <div class="col-md-4">
+                                        <img src="./IMG/nike1.jpg" class="img-fluid rounded-start" alt="...">
+                                      </div>
+                                      <div class="col-md-8">
+                                        <div class="card-body">
+                                            <span class="card-text" style="color: #8A8893;">Animal Print Sweatshirt</span> <br/>
+                                              <span class="star">
+                                                <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                                                <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                                                <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                                                <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                                                <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                                              </span>
+                                              <span style="color: #8A8893;"><i>6 Review(s)</i> </span> <br/>
+                                              <span style="color: #595768; font-size: 18px; font-weight: 700;">$ 19.00</span>
+                                              <span style="color: #595768; font-size: 14px; font-weight: 700; text-decoration: line-through;">$ 29.00</span> 
+                                              <div class="cart" style="display: inline-block; padding: 30px; position: relative; width: 80px;">
+                                                 <i class="fa-solid fa-cart-shopping"></i>
+                                                  <div id="nike1" class="ring" style="display: inline-block; position: absolute; "> <span style="color: white;  display: inline-block; margin-top: -20px;">0</span></div>
+                                                  
+                                              </div> <br/>
+                                              <button  onclick=" plussa1()" id="nike1" style="width: 100px; height: 25px; border: none; color: blue;"><i class="fa-solid fa-arrow-up"></i> Purchase</button>
+                                              <button  onclick="minussa1()"id="nike1" style="width: 100px; height: 25px; border: none; color: red;"><i class="fa-solid fa-arrow-down"></i></i> Return</button>
+                                              
+                                          </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                            
+                            <div class="col-lg-6">
+                                <div class="card mb-3" style="max-width: 540px;">
+                                    <div class="row g-0">
+                                      <div class="col-md-4">
+                                        <img src="./IMG/nike3.jpg" class="img-fluid rounded-start" alt="...">
+                                      </div>
+                                      <div class="col-md-8">
+                                        <div class="card-body">
+                                            <span class="card-text" style="color: #8A8893;">Animal Print Sweatshirt</span> <br/>
+                                              <span class="star">
+                                                <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                                                <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                                                <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                                                <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                                                <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                                              </span>
+                                              <span style="color: #8A8893;"><i>6 Review(s)</i> </span> <br/>
+                                              <span style="color: #595768; font-size: 18px; font-weight: 700;">$ 12.00</span>
+                                              <span style="color: #595768; font-size: 14px; font-weight: 700; text-decoration: line-through;">$ 19.00</span> 
+                                              <div class="cart" style="display: inline-block; padding: 30px; position: relative; width: 80px;">
+                                                 <i class="fa-solid fa-cart-shopping"></i>
+                                                  <div id="nike3" class="ring" style="display: inline-block; position: absolute; "> <span style="color: white;  display: inline-block; margin-top: -20px;">0</span></div>
+                                                  
+                                              </div> <br/>
+                                              <button  onclick=" plussa3()" id="nike3" style="width: 100px; height: 25px; border: none; color: blue;"><i class="fa-solid fa-arrow-up"></i> Purchase</button>
+                                              <button  onclick="minussa3()"id="nike3" style="width: 100px; height: 25px; border: none; color: red;"><i class="fa-solid fa-arrow-down"></i></i> Return</button>
+                                              
+                                          </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="card mb-3" style="max-width: 540px;">
+                                    <div class="row g-0">
+                                      <div class="col-md-4">
+                                        <img src="./IMG/nike2.jpg" class="img-fluid rounded-start" alt="...">
+                                      </div>
+                                      <div class="col-md-8">
+                                        <div class="card-body">
+                                            <span class="card-text" style="color: #8A8893;">Animal Print Sweatshirt</span> <br/>
+                                              <span class="star">
+                                                <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                                                <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                                                <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                                                <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                                                <i class="fa-solid fa-star" style="color: #FDCC2C;"></i>
+                                              </span>
+                                              <span style="color: #8A8893;"><i>6 Review(s)</i> </span> <br/>
+                                              <span style="color: #595768; font-size: 18px; font-weight: 700;">$ 19.00</span>
+                                              <span style="color: #595768; font-size: 14px; font-weight: 700; text-decoration: line-through;">$ 29.00</span> 
+                                              <div class="cart" style="display: inline-block; padding: 30px; position: relative; width: 80px;">
+                                                 <i class="fa-solid fa-cart-shopping"></i>
+                                                  <div id="nike2" class="ring" style="display: inline-block; position: absolute; "> <span style="color: white;  display: inline-block; margin-top: -20px;">0</span></div>
+                                                  
+                                              </div> <br/>
+                                              <button  onclick=" plussa2()" id="nike2" style="width: 100px; height: 25px; border: none; color: blue;"><i class="fa-solid fa-arrow-up"></i> Purchase</button>
+                                              <button  onclick="minussa2()"id="nike2" style="width: 100px; height: 25px; border: none; color: red;"><i class="fa-solid fa-arrow-down"></i></i> Return</button>
+                                              
+                                          </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="./IMG/odejda.jpg" class="card-img-top" alt="...">
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        
+        </div>
+    </div>
+    
+    
+    <!---===foot up pege end===--->
+
+    
+
+
+     
+        
+    
+
+    
+
+    
+</body>
+<script src="./JS/all.min.js"></script>
+<script src="./JS/bootstrap.min.js"></script>
+<script src="./JS/script.js"></script>
+</html>

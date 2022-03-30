@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Orbitron&family=Poppins:wght@100;200;300;400;500;600&family=Quintessential&family=Raleway:wght@200&family=Satisfy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sms{
+    display: inline-block;
+    padding-left: 2px;
+    color: #93929E;
+}
+
+.ss{
+    display: inline-block;
+    /* padding-left: 2px; */
+    color: #93929E;
+}
+
+.slesh{
+    display: inline-block;
+    color: #dad3d3;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.ring{
+    display: inline-block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+    text-align: center;
+}
+
+.logo-item{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.raund{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #dad3d3;
+    text-align: center;
+    padding-top: 8px;
+    
+    
+}
+
+.ring{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #e78f7f;
+    text-align: center;
+    margin-top: -10px;
+    
+}
+
