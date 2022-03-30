@@ -123,3 +123,5 @@ function minussa2() {
     neki2 = neki2 - 1
     nike2.innerText = neki2
 }
+
+
