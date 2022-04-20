@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 600px;
+    position: relative;
+}
+
+.container div{
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(to right, var(--clr1), var(--clr2));
+    border-radius: 50px;
+    position: relative;
+    transition: width 0.5s;
+    overflow: hidden;
+}
+
+.container div:nth-child(1){
+    top: 50px;
+}
+
+.container div:nth-child(2){
+    top: 70px;
+}
+
+.container div:nth-child(3){
+    top: 90px;
+}
+
+.container div:nth-child(4){
+    top: 110px;
+}
+
+.container div:nth-child(5){
+    top: -350px;
+    left: 60%;
+}
+
+.container div:nth-child(6){
+    top: -330px;
+    left: 60%;
+}
+
+.container div:nth-child(7){
+    top: -310px;
+    left: 60%;
+}
+
+.container div:nth-child(8){
+    top: -290px;
+    left: 60%;
+}
+
+span{
+    position: absolute;
+    width: 86px;
+    height: 86px;
+    background: #fff;
+    border-radius: 50%;
+    top: 7px;
+    left: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
+}
+
+span::before{
+    content: '';
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    box-shadow: inset 10px 10px 10px #00000029;
+}
+
+span i{
+    font-size: 30px;
+    z-index: 1000;
+    background: linear-gradient(var(--clr1), var(--clr2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container div:hover{
+    width: 310px;
+}
+
+.container div h1{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 600;
+    top: 30px;
+    left: 120px;
+    color: #fff;
+}
